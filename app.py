@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, DevOps World!!   This is the Flask Web Application with version v1.1'
+    return 'Hello, DevOps World!! This is the Flask Web Application with version v1.1'
 
 
 if __name__ == '__main__':
